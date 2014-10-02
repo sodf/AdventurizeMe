@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.56"
+            android:text="@string/Champaign"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:numStars="5"
+            android:rating="3.5"
+            android:stepSize="10" />
+
+    </LinearLayout>
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/block" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rock1" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/block" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rock2" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/block" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rock3" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/block" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rock4" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@android:drawable/ic_input_add" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/btn_star" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/weather" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Directions"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+</LinearLayout>

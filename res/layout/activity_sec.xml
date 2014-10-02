@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4f4f4"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+         android:background="#1B1714"
+        android:textColor="#F29E00"
+        android:textStyle="bold" 
+        android:textSize="28dp"/>
+
+	<Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:entries="@array/activity_array"
+        android:prompt="@string/activity_prompt"   />
+
+	<TextView
+	    android:id="@+id/textView2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#1B1714"
+	    android:text="Location"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="#F29E00"
+	    android:textStyle="bold"
+	    android:textSize="28dp" />
+
+	<Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:entries="@array/location_array"
+        android:prompt="@string/location_prompt" />
+	
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="15dp"
+     android:background="#f4f4f4"
+     android:orientation="horizontal" >
+
+	       <View
+	           android:layout_width="match_parent"
+	           android:layout_height="0dp" />
+
+	       </LinearLayout>
+	  <LinearLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#f4f4f4"
+    android:orientation="horizontal">
+	       <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        />
+
+	      <Button
+	          android:id="@+id/btnSubmit"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="3.58"
+	          android:text="Search" />
+
+	    <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        />
+
+	      <Button
+	          android:id="@+id/btnPrep"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:layout_weight="1.95"
+	          android:text="Preparation" />
+
+	       <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        />
+	  </LinearLayout>
+
+	  <ImageButton
+	      android:id="@+id/imageButton1"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:src="@drawable/newmap101" />
+
+    </LinearLayout>
+
+    
